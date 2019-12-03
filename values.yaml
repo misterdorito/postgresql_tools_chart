@@ -1,0 +1,4 @@
+# Default values for postgresql_tools_chart.
+
+#Valid values are: 9.4, 9.6, 11, 12
+pg_version: 9.6
