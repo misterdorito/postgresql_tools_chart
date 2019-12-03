@@ -18,5 +18,5 @@ The supported PostgreSQL version are 9.4, 9.6, 11 and 12.
 ## Undeploying the chart
 To undeploy the chart, issue the following command:
 ```
-   helm -n pega-dev delete pgtools
+   helm -n [namespace] delete pgtools
 ```
