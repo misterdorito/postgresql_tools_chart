@@ -13,7 +13,7 @@ These instructions assumes that:
 ```
    helm install -n <namespace> --set pg_version=[postgresql version] pgtools .
 ```
-The supported PostgreSQL version are 9.4, 9.6, 11 and 12.
+The supported PostgreSQL version are 9.4, 9.5, 9.6, 11 and 12.
 
 ## Undeploying the chart
 To undeploy the chart, issue the following command:

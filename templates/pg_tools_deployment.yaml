@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: postgresql-tools
-        image: primedorito/postgresql_tools:{ .Values.pg_version }
+        image: primedorito/postgresql_tools:{{ .Values.pg_version }}
